@@ -21,7 +21,7 @@ headerApp.component('mobile-header', {
 					<a href="index">Home</a>
 				</div>
 				<div class="pb-2">
-					<a href="#news">News</a>
+					<a href="index#news">News</a>
 				</div>
 				<div class="pb-2">
 					<a href="uses">Use Cases</a>
@@ -55,7 +55,7 @@ headerApp.component('desktop-header', {
 						<a tabindex="1" href="index">Home</a>
 					</div>
 					<div class="flex items-center">
-						<a tabindex="1" href="#news">News</a>
+						<a tabindex="1" href="index#news">News</a>
 					</div>
 					<div :class="['flex items-center',{ 'underline decoration-solid underline-offset-8' : underlineLink=='uses'}]">
 						<a tabindex="1" href="uses">Use Cases</a>
@@ -96,7 +96,7 @@ footerApp.component('footers', {
 					<a tabindex="3" href="index">Home</a>
 				</div>
 				<div class="py-2 lg:py-0 lg:px-3">
-					<a tabindex="3" href="#news">News</a>
+					<a tabindex="3" href="index#news">News</a>
 				</div>
 				<div class="py-2 lg:py-0 lg:px-3">
 					<a tabindex="3" href="uses">Use Cases</a>
