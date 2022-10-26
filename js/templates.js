@@ -264,7 +264,7 @@ usesApp.component('uses', {
 			</div>
 			<div class="flex flex-col place-content-center use-container mt-10 lg:mt-0 lgx:p-0 lg:flex-row">
 				<div class="lgx:flex flex-row justify-center items-center use-num-container lgx:m-0 bg-gold text-white lg:bg-white lg:text-gold py-10 lg:py-0">
-					<div tabindex="2" class="use-num satoshi-bold font-bold lgx:leading-none mr-5 w-fit lg:mr-0 lg:w-32">1</div>
+					<div tabindex="2" class="use-num satoshi-bold font-bold lgx:leading-none mr-5 w-fit lg:mr-0 lg:w-32">{{useItems.planning.length}}</div>
 					<div tabindex="2" class="use-num-desc self-end">In Planning</div>
 				</div>
 				<div tabindex="-1" class="hidden lg:flex flex-col items-stretch">
@@ -277,7 +277,7 @@ usesApp.component('uses', {
 			</div>
 			<div class="flex flex-col place-content-center use-container mt-10 lg:mt-0 lgx:p-0 lg:flex-row">
 				<div class="lgx:flex flex-row justify-center items-center use-num-container lgx:m-0 bg-medgrey text-white lg:bg-white lg:text-medgrey py-10 lg:py-0">
-					<div tabindex="2" class="use-num satoshi-bold font-bold lgx:leading-none mr-5 w-fit lg:mr-0 lg:w-32">5</div>
+					<div tabindex="2" class="use-num satoshi-bold font-bold lgx:leading-none mr-5 w-fit lg:mr-0 lg:w-32">{{useItems.discovery.length}}</div>
 					<div tabindex="2" class="use-num-desc self-end">In Discovery</div>
 				</div>
 				<div tabindex="-1" class="hidden lg:flex flex-col items-stretch">
