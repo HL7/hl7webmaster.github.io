@@ -14,20 +14,23 @@
           deserve and should expect.
         </div>
         <div class="mt-8 flex">
-          <a class="basis-1/2" tabindex="0" href="/#news">
+          <!-- Anchor tag on the same page doesn't need NuxtLink -->
+          <a class="basis-1/2" tabindex="0" href="#news">
             <div
               class="font-black satoshi-bold font-24px mt-2 mb-2 mr-2 bg-white border-3 border-white rounded-5px p-4 px-8 text-black text-center"
             >
               CodeX in the News
             </div>
           </a>
-          <a class="basis-1/2" tabindex="0" href="contact">
-            <div
-              class="font-black satoshi-bold font-24px text-white p-4 px-8 text-center rounded-5px border-3 m-2 border-white bg-transparent"
-            >
-              Contact Us
-            </div>
-          </a>
+          <NuxtLink to="contact">
+            <a class="basis-1/2" tabindex="0">
+              <div
+                class="font-black satoshi-bold font-24px text-white p-4 px-8 text-center rounded-5px border-3 m-2 border-white bg-transparent"
+              >
+                Contact Us
+              </div>
+            </a>
+          </NuxtLink>
         </div>
       </div>
     </div>
