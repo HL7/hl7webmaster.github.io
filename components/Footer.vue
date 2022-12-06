@@ -2,22 +2,22 @@
   <div class="footer grid text-white font-16px pt-8 lg:py-8">
     <div class="flex flex-col lg:flex-row justify-self-end mr-16 lg:mr-0">
       <div class="py-2 lg:py-0 lg:px-3">
-        <a tabindex="3" href="/">Home</a>
+        <NuxtLink to="/">Home</NuxtLink>
       </div>
       <div class="py-2 lg:py-0 lg:px-3">
-        <a tabindex="3" href="/#news">News</a>
+        <NuxtLink to="/#news">News</NuxtLink>
       </div>
       <div class="py-2 lg:py-0 lg:px-3">
-        <a tabindex="3" href="uses">Use Cases</a>
+        <NuxtLink to="/uses">Use Cases</NuxtLink>
       </div>
       <div class="py-2 lg:py-0 lg:px-3">
-        <a tabindex="3" href="community">Community</a>
+        <NuxtLink to="/community">Community</NuxtLink>
       </div>
       <div class="py-2 lg:py-0 lg:px-3">
-        <a tabindex="3" href="story">Our Story</a>
+        <NuxtLink to="/story">Our Story</NuxtLink>
       </div>
       <div class="py-2 lg:py-0 lg:px-3">
-        <a tabindex="3" href="contact">Contact</a>
+        <NuxtLink to="/contact">Contact</NuxtLink>
       </div>
     </div>
     <div class="flex flex-col lg:flex-row ml-8 lg:ml-0">
