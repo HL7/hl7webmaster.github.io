@@ -1,4 +1,4 @@
-# codex-site-new
+# codex-site
 
 ## Build Setup
 

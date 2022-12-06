@@ -78,5 +78,7 @@ export default {
   // Custom link active class for routes
   router: {
     linkExactActiveClass: 'decoration-solid underline underline-offset-8',
+    // This needs to be removed before publishing on the main HL7 repo
+    base: '/codex-site/',
   },
 }
