@@ -50,20 +50,20 @@
           deserve and should expect.
         </div>
         <div class="mt-5 flex">
-          <a class="grow" href="/#news">
+          <a class="grow" href="#news">
             <div
               class="satoshi-black font-16px font-black bg-black border-3 border-black rounded-5px mr-2.5 p-4 px-8 text-white text-center"
             >
               In the News
             </div>
           </a>
-          <a class="grow" href="contact">
-            <div
-              class="satoshi-black font-16px font-black p-4 px-8 text-center rounded-5px border-3 border-black bg-transparent"
+          <NuxtLink to="/contact">
+            <a
+              class="grow satoshi-black font-16px font-black p-4 px-8 text-center rounded-5px border-3 border-black bg-transparent"
             >
               Contact Us
-            </div>
-          </a>
+            </a>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -341,7 +341,9 @@
               11
             </h1>
             <h2 tabindex="0" lass="font-16px">
-              <a class="underline" href="uses">Use Cases Underway</a>
+              <NuxtLink to="/uses">
+                <a class="underline">Use Cases Underway</a>
+              </NuxtLink>
             </h2>
           </div>
           <div class="sm:w-1/2 md:w-full">
@@ -377,7 +379,9 @@
               200+
             </h1>
             <h2 tabindex="0" class="font-16px">
-              <a class="underline" href="community">Community Members</a>
+              <NuxtLink to="/community">
+                <a class="underline"> Read more use cases </a>
+              </NuxtLink>
             </h2>
           </div>
         </div>
@@ -550,8 +554,10 @@
             adopted by over 13 health sites.
           </p>
           <p tabindex="0" class="mt-4">
-            <a class="underline" href="uses">Read more use cases</a
-            ><img class="inline ml-2" src="~/assets/img/arrow.svg" />
+            <NuxtLink to="/uses">
+              <a class="underline"> Read more use cases </a>
+            </NuxtLink>
+            <img class="inline ml-2" src="~/assets/img/arrow.svg" />
           </p>
         </div>
       </div>
