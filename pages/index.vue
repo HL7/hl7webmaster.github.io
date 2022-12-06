@@ -666,8 +666,10 @@
             implement CodeX at your institution.
           </p>
           <p class="mt-4">
-            <a tabindex="0" class="underline" href="contact.html">Contact Us</a
-            ><img class="inline ml-2" src="~/assets/img/arrow.svg" />
+            <NuxtLink to="/contact">
+              <a tabindex="0" class="underline">Contact Us</a>
+            </NuxtLink>
+            <img class="inline ml-2" src="~/assets/img/arrow.svg" />
           </p>
         </div>
         <div class="basis-1/3 p-11 bg-white text-black">
@@ -685,8 +687,10 @@
             disease.
           </p>
           <p class="mt-4">
-            <a tabindex="0" class="underline" href="contact.html">Contact Us</a
-            ><img class="inline ml-2" src="~/assets/img/arrow.svg" />
+            <NuxtLink to="/contact">
+              <a tabindex="0" class="underline">Contact Us</a>
+            </NuxtLink>
+            <img class="inline ml-2" src="~/assets/img/arrow.svg" />
           </p>
           <p class="">
             <a
