@@ -29,11 +29,20 @@ export default {
       { name: 'author', content: 'CodeX' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', sizes: 'any', href: '/favicon.ico' },
-      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        sizes: 'any',
+        href: '~/assets/favicon/favicon.ico',
+      },
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '~/assets/favicon/favicon.svg',
+      },
     ],
-    // <link rel="icon" href="/favicon.ico" sizes="any" />
-    // <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    // <link rel="icon" href="~/assets/favicon/favicon.ico" sizes="any" />
+    // <link rel="icon" href="~/assets/favicon/favicon.svg" type="image/svg+xml" />
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

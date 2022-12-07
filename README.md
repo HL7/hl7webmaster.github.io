@@ -1,4 +1,6 @@
-# codex-site
+# CodeX Webpage
+
+A NuxtJS (v2) web site communicating CodeX news, community membership, active use cases, and more.
 
 ## Build Setup
 
@@ -15,13 +17,14 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+# Note: ^ this is run and deplouyed to our GH-pages branch automatically with a Git-hook
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+For detailed explanation on how things work, check out the NuxtJs [documentation](https://nuxtjs.org).
 
 ## Special Directories
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Below are descriptions for all of the next-specific special directories you'll see in our project, with links to documentation for learning more.
 
 ### `assets`
 
@@ -34,6 +37,12 @@ More information about the usage of this directory in [the documentation](https:
 The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+
+### `content`
+
+Empower your Nuxt application with `@nuxt/content` module where you can write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/directory-structure/content).
 
 ### `layouts`
 
@@ -60,9 +69,3 @@ This directory contains your static files. Each file inside this directory is ma
 Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
