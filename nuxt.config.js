@@ -29,20 +29,25 @@ export default {
       { name: 'author', content: 'CodeX' },
     ],
     link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        sizes: 'any',
-        href: '~/assets/favicon/favicon.ico',
-      },
-      {
-        rel: 'icon',
-        type: 'image/svg+xml',
-        href: '~/assets/favicon/favicon.svg',
-      },
+      { rel: 'icon', type: 'image/x-icon', sizes: 'any', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
     ],
-    // <link rel="icon" href="~/assets/favicon/favicon.ico" sizes="any" />
-    // <link rel="icon" href="~/assets/favicon/favicon.svg" type="image/svg+xml" />
+    // <link rel="icon" href="/favicon.ico" sizes="any" />
+    // <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  },
+
+  router: {
+    // Custom link active class for routes
+    linkExactActiveClass: 'decoration-solid underline underline-offset-8',
+    // Define the base route if it's anything but root
+    base: '/codex-site/',
+  },
+
+  render: {
+    // Need to specify hosting static files at the base-route defined above
+    static: {
+      prefix: true,
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -83,11 +88,4 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
-  // Custom link active class for routes
-  router: {
-    linkExactActiveClass: 'decoration-solid underline underline-offset-8',
-    // This needs to be removed before publishing on the main HL7 repo
-    base: '/codex-site/',
-  },
 }

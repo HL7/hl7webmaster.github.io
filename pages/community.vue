@@ -255,7 +255,6 @@
 <script>
 export default {
   layout: 'DefaultGrey',
-  ssr: false, // Disable Server Side rendering
   async asyncData({ $content, params }) {
     const leaders = await $content('leaders').fetch()
 
