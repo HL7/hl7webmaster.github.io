@@ -43,11 +43,9 @@ export default {
     base: '/codex-site/',
   },
 
-  render: {
-    // Need to specify hosting static files at the base-route defined above
-    static: {
-      prefix: true,
-    },
+  // Need to specify hosting static files at the base-route defined above
+  static: {
+    prefix: true,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
