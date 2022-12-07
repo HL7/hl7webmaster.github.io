@@ -281,5 +281,19 @@ export default {
       operatingMembers,
     }
   },
+  head() {
+    return {
+      title: 'CodeX Community',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "A compilation of CodeX's community leaders, managing committees, and communities of practice, as well as guidance on how to become a CodeX community member yourself.",
+        },
+      ],
+    }
+  },
 }
 </script>

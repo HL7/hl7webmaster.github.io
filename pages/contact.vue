@@ -135,6 +135,20 @@ export default {
       EMAILJS_PUBLIC_KEY: 'Ogb0ZaVWt1cujLVK1',
     }
   },
+  head() {
+    return {
+      title: 'Codex Contact',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Instructions on how to contact CodeX community organizers and a form for easily doing this from the CodeX website.',
+        },
+      ],
+    }
+  },
   methods: {
     submitContactForm(e) {
       e.preventDefault()

@@ -752,5 +752,19 @@ export default {
       newsItems: newsItemCSV.body,
     }
   },
+  head() {
+    return {
+      title: 'CodeX Home',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The homepage for learning more about CodeX, the only member-driven community focused on solving the problem of silos endemic to our current healthcare system for specialty health data. We enable high-quality computable data — using Health Level Seven International (HL7) and Fast Healthcare Interoperability Resource (FHIR) standards — to create an open common language for patients, care teams, and researchers to advance data ownership, sharing, and reliability.',
+        },
+      ],
+    }
+  },
 }
 </script>

@@ -58,5 +58,19 @@ export default {
       discovery,
     }
   },
+  head() {
+    return {
+      title: 'CodeX Use Cases',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "A breakdown of various CodeX's usecases, detailing their scopes, stages of development, and impacts to date.",
+        },
+      ],
+    }
+  },
 }
 </script>
