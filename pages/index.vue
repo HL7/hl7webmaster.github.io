@@ -315,7 +315,6 @@
       </div>
     </div>
     <div class="bg-darkgrey text-white">
-      ¸
       <div
         class="flex flex-col lg:flex-row mx-14 lg:mx-56 my-20 justify-center"
       >
@@ -380,7 +379,7 @@
             </h1>
             <h2 tabindex="0" class="font-16px">
               <NuxtLink to="/community">
-                <a class="underline"> Read more use cases </a>
+                <a class="underline">Community Members</a>
               </NuxtLink>
             </h2>
           </div>
@@ -555,7 +554,7 @@
           </p>
           <p tabindex="0" class="mt-4">
             <NuxtLink to="/uses">
-              <a class="underline"> Read more use cases </a>
+              <a class="underline">Read more use cases</a>
             </NuxtLink>
             <img class="inline ml-2" src="~/assets/img/arrow.svg" />
           </p>

@@ -26,6 +26,7 @@
         v-show="menuOpen"
         id="close-menu-button-div"
         class="close-menu-button-div ml-auto cursor-pointer"
+        @click="toggleMenu"
       >
         <img
           class="close-menu-button"

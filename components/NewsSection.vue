@@ -15,8 +15,9 @@
           target="_blank"
           href="https://confluence.hl7.org/display/COD/CodeX+Home?desktop=true&macroName=confiform-entry-register#CodeXHome-News"
         >
-          Read More </a
-        ><img class="inline ml-2" src="~/assets/img/arrow.svg" />
+          Read More
+        </a>
+        <img class="inline ml-2" src="~/assets/img/arrow.svg" />
       </div>
     </div>
     <MobileNews :news-items="newsItems" />
