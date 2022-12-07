@@ -68,7 +68,7 @@
         extensions into production EHRs and other systems. There is no cost for
         participation in the CoP's monthly calls.
       </p>
-      <div class="flex lg:flex-row flex-col pt-2.5">
+      <div class="flex lg:flex-row flex-col">
         <div>
           <a
             tabindex="2"
@@ -256,18 +256,15 @@
 export default {
   layout: 'DefaultGrey',
   async asyncData({ $content, params }) {
-    const leaders = await $content('leaders').fetch()
+    const leaders = await $content('leaders').sortBy('sortPriority').fetch()
 
     const steeringMembersObjs = await $content('committeeMembers')
-      .only('name')
-      .sortBy('name')
       .where({ slug: 'steering' })
       .fetch()
     const steeringMembers = steeringMembersObjs.map(
       (memberObj) => memberObj.name
     )
     const operatingMembersObjs = await $content('committeeMembers')
-      .only('name')
       .sortBy('name')
       .where({ slug: 'operating' })
       .fetch()
