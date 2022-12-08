@@ -22,14 +22,11 @@
               CodeX in the News
             </div>
           </a>
-          <NuxtLink to="contact">
-            <a class="basis-1/2" tabindex="0">
-              <div
-                class="font-black satoshi-bold font-24px text-white p-4 px-8 text-center rounded-5px border-3 m-2 border-white bg-transparent"
-              >
-                Contact Us
-              </div>
-            </a>
+          <NuxtLink
+            to="contact"
+            class="basis-1/2 font-black satoshi-bold font-24px text-white p-4 px-8 text-center rounded-5px border-3 m-2 border-white bg-transparent"
+          >
+            Contact Us
           </NuxtLink>
         </div>
       </div>

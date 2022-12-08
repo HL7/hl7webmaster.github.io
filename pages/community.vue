@@ -243,10 +243,8 @@
         key notes, and more.
       </p>
       <p>
-        <NuxtLink to="/contact">
-          <a tabindex="2" class="flex underline">
-            Contact Us <img class="ml-2" src="~/assets/img/arrow.svg" />
-          </a>
+        <NuxtLink to="/contact" class="underline">
+          Contact Us <img class="ml-2 inline" src="~/assets/img/arrow.svg" />
         </NuxtLink>
       </p>
     </div>
