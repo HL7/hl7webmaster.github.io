@@ -1,8 +1,6 @@
 <template>
   <div class="bg-white uses-list">
-    <div
-      class="flex flex-col place-content-center use-container lgx:p-0 lg:flex-row"
-    >
+    <div class="flex flex-col place-content-center pt-16 lgx:p-0 lg:flex-row">
       <div
         class="lgx:flex flex-row justify-center items-baseline mr-0 lg:mr-20 bg-darkred text-white lg:bg-white lg:text-darkred py-10 lg:py-0"
       >
@@ -23,7 +21,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col place-content-center use-container mt-10 lg:mt-0 lgx:p-0 lg:flex-row"
+      class="flex flex-col place-content-center pt-16 mt-10 lg:mt-0 lgx:p-0 lg:flex-row"
     >
       <div
         class="lgx:flex flex-row justify-center items-center mr-0 lg:mr-20 bg-gold text-white lg:bg-white lg:text-gold py-10 lg:py-0"
@@ -45,7 +43,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col place-content-center use-container mt-10 lg:mt-0 lgx:p-0 lg:flex-row"
+      class="flex flex-col place-content-center pt-16 mt-10 lg:mt-0 lgx:p-0 lg:flex-row"
     >
       <div
         class="lgx:flex flex-row justify-center items-center mr-0 lg:mr-20 bg-medgrey text-white lg:bg-white lg:text-medgrey py-10 lg:py-0"
