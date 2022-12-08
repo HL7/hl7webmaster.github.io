@@ -54,12 +54,11 @@
               In the News
             </div>
           </a>
-          <NuxtLink to="/contact">
-            <a
-              class="grow satoshi-black font-16px font-black p-4 px-8 text-center rounded-5px border-3 border-black bg-transparent"
-            >
-              Contact Us
-            </a>
+          <NuxtLink
+            to="/contact"
+            class="grow satoshi-black font-16px font-black p-4 px-8 text-center rounded-5px border-3 border-black bg-transparent"
+          >
+            Contact Us
           </NuxtLink>
         </div>
       </div>
