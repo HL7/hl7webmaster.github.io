@@ -32,12 +32,7 @@
         usable, and shareable.
       </div>
     </div>
-    <div class="px-16 bg-white">
-      <h1 tabindex="2" class="satoshi-black font-bold font-36px text-darkbrown">
-        Leadership
-      </h1>
-      <LeadersSection :leaders="leaders" />
-    </div>
+    <LeadersSection :leaders="leaders" />
     <div class="px-16 bg-white">
       <h1
         tabindex="2"
@@ -91,146 +86,11 @@
     </div>
     <div class="pl-16 pr-8 pt-6 bg-white">
       <div class="flex flex-row flex-wrap gap-x-4 justify-between lg:gap-x-0">
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="Health Systems icon of hospital building"
-              alt="Health Systems icon of hospital building"
-              class="h-16 lg:h-20"
-              src="~/assets/img/healthSystems.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">66</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">
-              Health Systems
-            </h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="Payers icon health shield"
-              alt="Payers icon health shield"
-              class="h-16 lg:h-20"
-              src="~/assets/img/payers.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">6</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">Payers</h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="pharma icon of pharmacy building"
-              alt="pharma icon of pharmacy building"
-              class="h-16 lg:h-20"
-              src="~/assets/img/pharma.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">11</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">Pharma</h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="EHR and Tech Companies Icon of person with electronic device"
-              alt="EHR and Tech Companies Icon of person with electronic device"
-              class="h-16 lg:h-20"
-              src="~/assets/img/ehrsAndTechCompanies.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">104</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">
-              EHRs & Tech Companies
-            </h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="Medical Societies and Consortia icon of building"
-              alt="Medical Societies and Consortia icon of building"
-              class="h-16 lg:h-20"
-              src="~/assets/img/medicalSocAndConsortia.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">19</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">
-              Medical Societies & Consortia
-            </h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="Government Agencies icon of federal building"
-              alt="Government Agencies icon of federal building"
-              class="h-16 lg:h-20"
-              src="~/assets/img/governmentAgencies.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">15</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">
-              Government Agencies
-            </h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="Research Organizations Icon of microscope"
-              alt="Research Organizations Icon of microscope"
-              class="h-16 lg:h-20"
-              src="~/assets/img/researchOrganizations.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">15</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">
-              Research Organizations
-            </h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="Non-profit and foundations icon of people gathered together"
-              alt="Non-profit and foundations icon of people gathered together"
-              class="h-16 lg:h-20"
-              src="~/assets/img/nonProfAndFoundations.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">3</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">
-              Non-Profits & Foundations
-            </h3>
-          </div>
-        </div>
-        <div class="pt-9 pb-5 w-1/4 lg:w-1/3 lg:flex lg:gap-x-8">
-          <div class="flex w-16 lg:w-20 justify-end">
-            <img
-              title="Patient Advocacy Organizations icon of megaphone"
-              alt="Patient Advocacy Organizations icon of megaphone"
-              class="h-16 lg:h-20"
-              src="~/assets/img/patientAdvocacyOrgs.png"
-            />
-          </div>
-          <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">2</h1>
-            <h3 tabindex="2" class="community-cop-numb-metric">
-              Patient Advocacy Organizations
-            </h3>
-          </div>
-        </div>
+        <CommunityMemberGridItem
+          v-for="communityMemberType in communityOfPractice.communityMemberTypes"
+          :key="communityMemberType.name"
+          :community-member-type="communityMemberType"
+        />
       </div>
     </div>
     <div class="px-16 py-20 bg-white">
@@ -254,6 +114,7 @@
 export default {
   layout: 'DefaultGrey',
   async asyncData({ $content, params }) {
+    const communityOfPractice = await $content('communityOfPractice').fetch()
     const leaders = await $content('leaders').sortBy('sortPriority').fetch()
 
     const steeringMembersObjs = await $content('committeeMembers')
@@ -273,6 +134,7 @@ export default {
       leaders,
       steeringMembers,
       operatingMembers,
+      communityOfPractice,
     }
   },
   head() {
