@@ -101,7 +101,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">55</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">66</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">
               Health Systems
             </h3>
@@ -117,7 +117,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">7</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">6</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">Payers</h3>
           </div>
         </div>
@@ -131,7 +131,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">10</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">11</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">Pharma</h3>
           </div>
         </div>
@@ -145,7 +145,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">85</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">104</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">
               EHRs & Tech Companies
             </h3>
@@ -161,7 +161,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">12</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">19</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">
               Medical Societies & Consortia
             </h3>
@@ -177,7 +177,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">14</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">15</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">
               Government Agencies
             </h3>
@@ -193,7 +193,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">12</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">15</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">
               Research Organizations
             </h3>
@@ -209,7 +209,7 @@
             />
           </div>
           <div class="mt-3 lg:mt-0">
-            <h1 tabindex="2" class="community-cop-number satoshi-bold">7</h1>
+            <h1 tabindex="2" class="community-cop-number satoshi-bold">3</h1>
             <h3 tabindex="2" class="community-cop-numb-metric">
               Non-Profits & Foundations
             </h3>

@@ -24,6 +24,12 @@
     "newDomain": false
   },
   {
+    "title": "Prior Authorization in Oncology",
+    "description": "Facilitate sharing of mCODE-based clinical data between providers and payers to reduce burden and speed authorization or requests for more information.",
+    "url": "https://confluence.hl7.org/display/COD/Prior+Authorization+in+Oncology",
+    "newDomain": false
+  },
+  {
     "title": "Radiation Treatment Therapy Data for Cancer",
     "description": "Leverage mCODE and extensions to enable sharing of critical radiation therapy treatment data for care coordination or data reuse (research, quality measurement, payer-required reporting).",
     "url": "https://confluence.hl7.org/display/COD/Radiation+Therapy+Treatment+Data+for+Cancer",
