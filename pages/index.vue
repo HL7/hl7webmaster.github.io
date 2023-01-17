@@ -261,14 +261,14 @@
             standard enabling high-quality data capture for cancer that can be
             widely adopted.
           </p>
-          <p tabindex="0">
-            <span class="satoshi-bold">70+ oncology elements</span> in use at
-            Dana-Farber Cancer Institute, MD Anderson Center, Massachusetts
-            General Hospital and 44 other institutions. Versions of the mCODE
-            and associated modeling tools are currently operational in over 250
-            organizations.
-          </p>
         </div>
+        <p tabindex="0">
+          <span class="satoshi-bold">70+ oncology elements</span> in use at
+          Dana-Farber Cancer Institute, MD Anderson Center, Massachusetts
+          General Hospital and 44 other institutions. Versions of the mCODE and
+          associated modeling tools are currently operational in over 250
+          organizations.
+        </p>
         <SeeOurWork link="https://confluence.hl7.org/display/COD/Oncology" />
         <div class="border-b border-solid border-faintgrey pb-2 lg:pt-0"></div>
         <div id="genomics-first-section">
