@@ -1,0 +1,58 @@
+{
+  "communityMemberTypes": [
+    {
+      "name": "Health Systems",
+      "image": "healthSystems.png",
+      "imageAlt": "Health Systems icon of hospital building",
+      "count": 66
+    },
+    {
+      "name": "Payers",
+      "image": "payers.png",
+      "imageAlt": "Payers icon health shield",
+      "count": 6
+    },
+    {
+      "name": "Pharma",
+      "image": "pharma.png",
+      "imageAlt": "pharma icon of pharmacy building",
+      "count": 11
+    },
+    {
+      "name": "EHRs & Tech Companies",
+      "image": "ehrsAndTechCompanies.png",
+      "imageAlt": "EHR and Tech Companies Icon of person with electronic device",
+      "count": 104
+    },
+    {
+      "name": "Medical Societies & Consortia",
+      "image": "medicalSocAndConsortia.png",
+      "imageAlt": "Medical Societies and Consortia icon of building",
+      "count": 19
+    },
+    {
+      "name": "Government Agencies",
+      "image": "governmentAgencies.png",
+      "imageAlt": "Government Agencies icon of federal building",
+      "count": 15
+    },
+    {
+      "name": "Research Organizations",
+      "image": "researchOrganizations.png",
+      "imageAlt": "Research Organizations Icon of microscope",
+      "count": 15
+    },
+    {
+      "name": "Non-Profits & Foundations",
+      "image": "nonProfAndFoundations.png",
+      "imageAlt": "Non-profit and foundations icon of people gathered together",
+      "count": 3
+    },
+    {
+      "name": "Patient Advocacy Organizations",
+      "image": "patientAdvocacyOrgs.png",
+      "imageAlt": "Patient Advocacy Organizations icon of megaphone",
+      "count": 2
+    }
+  ]
+}
