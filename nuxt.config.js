@@ -40,7 +40,7 @@ export default {
     // Custom link active class for routes
     linkExactActiveClass: 'decoration-solid underline underline-offset-8',
     // Define the base route if it's anything but root
-    base: '/codex-site/',
+    base: '/',
   },
 
   // Need to specify hosting static files at the base-route defined above

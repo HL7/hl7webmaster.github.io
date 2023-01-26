@@ -47,7 +47,7 @@ jobs:
       - name: Check links with linkcheck 🔗✅
         uses: filiph/linkcheck@2.0.23
         with:
-          arguments: https://dtphelan1.github.io/codex-site/ -e
+          arguments: https://codex.hl7.org/ -e
   link-check:
     needs: cd
     runs-on: ${{ matrix.os }}
@@ -61,4 +61,4 @@ jobs:
       - name: Run linkcheck against post-deploy URL 🔗✅
         uses: filiph/linkcheck@2.0.23
         with:
-          arguments: https://dtphelan1.github.io/codex-site/ -e
+          arguments: https://codex.hl7.org/ -e
