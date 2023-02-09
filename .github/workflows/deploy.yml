@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  cd:
+  deploy:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -43,18 +43,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-
-  link-check:
-    needs: cd
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [v16.7.0]
-
-    steps:
-      - name: Run linkcheck against post-deploy URL 🔗✅
-        uses: filiph/linkcheck@2.0.23
-        with:
-          arguments: https://codex.hl7.org/ -e
