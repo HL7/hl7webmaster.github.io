@@ -1,6 +1,11 @@
 name: link-check
 
-on: [deployment]
+# Only trigger, when the build workflow succeeded
+on:
+  workflow_run:
+    workflows: ['pages-build-deployment']
+    types:
+      - completed
 
 jobs:
   link-check:
