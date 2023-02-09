@@ -18,6 +18,6 @@ jobs:
 
     steps:
       - name: Run linkcheck against post-deploy URL 🔗✅
-        uses: filiph/linkcheck@2.0.23
+        uses: filiph/linkcheck@3.0.0
         with:
           arguments: https://codex.hl7.org/ -e
