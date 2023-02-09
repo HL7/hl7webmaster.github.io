@@ -44,10 +44,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
 
-      - name: Check links with linkcheck 🔗✅
-        uses: filiph/linkcheck@2.0.23
-        with:
-          arguments: https://codex.hl7.org/ -e
   link-check:
     needs: cd
     runs-on: ${{ matrix.os }}
