@@ -265,7 +265,7 @@
         <p tabindex="0">
           <span class="satoshi-bold">70+ oncology elements</span> in use at
           Dana-Farber Cancer Institute, MD Anderson Center, Massachusetts
-          General Hospital and 44 other institutions. Versions of the mCODE and
+          General Hospital and 45 other institutions. Versions of the mCODE and
           associated modeling tools are currently operational in over 250
           organizations.
         </p>
@@ -350,7 +350,7 @@
               tabindex="0"
               class="satoshi-bold font-black font-40px leading-9"
             >
-              44
+              45
             </h1>
             <h2 tabindex="0" class="font-16px">
               <a
