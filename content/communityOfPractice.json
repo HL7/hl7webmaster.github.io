@@ -4,7 +4,7 @@
       "name": "Health Systems",
       "image": "healthSystems.png",
       "imageAlt": "Health Systems icon of hospital building",
-      "count": 66
+      "count": 70
     },
     {
       "name": "Payers",
@@ -22,25 +22,25 @@
       "name": "EHRs & Tech Companies",
       "image": "ehrsAndTechCompanies.png",
       "imageAlt": "EHR and Tech Companies Icon of person with electronic device",
-      "count": 104
+      "count": 111
     },
     {
       "name": "Medical Societies & Consortia",
       "image": "medicalSocAndConsortia.png",
       "imageAlt": "Medical Societies and Consortia icon of building",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Government Agencies",
       "image": "governmentAgencies.png",
       "imageAlt": "Government Agencies icon of federal building",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Research Organizations",
       "image": "researchOrganizations.png",
       "imageAlt": "Research Organizations Icon of microscope",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Non-Profits & Foundations",
@@ -52,7 +52,7 @@
       "name": "Patient Advocacy Organizations",
       "image": "patientAdvocacyOrgs.png",
       "imageAlt": "Patient Advocacy Organizations icon of megaphone",
-      "count": 2
+      "count": 4
     }
   ]
 }
