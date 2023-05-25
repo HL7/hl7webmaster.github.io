@@ -322,7 +322,7 @@
               tabindex="0"
               class="satoshi-bold font-black font-40px leading-9"
             >
-              11
+              10
             </h1>
             <h2 tabindex="0" lass="font-16px">
               <NuxtLink to="/uses">
