@@ -4,5 +4,17 @@
     "description": "Create integrated, automated, efficient, and effective REMS programs by leveraging open data standards. Create the data infrastructure to enable REMS integration into the current workflow and data sharing across REMS stakeholders, reducing undue burden. ",
     "url": "https://confluence.hl7.org/display/COD/Risk+Evaluation+and+Mitigation+Strategies+%28REMS%29+Integration",
     "newDomain": false
+  },
+  {
+    "title": "CardX Hypertension Management",
+    "description": "Design and build an integrated standard that enables interoperable, scalable, and accessible hypertension management, both at home and in the clinic, so that blood pressure data can easily be shared among home blood pressure measurement devices, patient data managers, and health systems. ",
+    "url": "https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management",
+    "newDomain": false
+  },
+  {
+    "title": "Genomics Operations",
+    "description": "Enable access to complex genomic data through APIs so that developers can more easily develop and populate data for a range of genomic applications. ",
+    "url": "https://confluence.hl7.org/display/COD/GenomeX+-+Genomics+Operations",
+    "newDomain": false
   }
 ]

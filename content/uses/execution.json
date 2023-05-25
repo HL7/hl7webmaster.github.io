@@ -18,12 +18,6 @@
     "newDomain": false
   },
   {
-    "title": "mCODE++ Extraction",
-    "description": "Develop software to enable existing EHRs and other systems to share cancer patient data conformant to the mCODE FHIR Implementation Guides to support a variety of use cases. ",
-    "url": "https://confluence.hl7.org/pages/viewpage.action?pageId=76164453",
-    "newDomain": false
-  },
-  {
     "title": "Prior Authorization in Oncology",
     "description": "Facilitate sharing of mCODE-based clinical data between providers and payers to reduce burden and speed authorization or requests for more information.",
     "url": "https://confluence.hl7.org/display/COD/Prior+Authorization+in+Oncology",
@@ -33,6 +27,12 @@
     "title": "Radiation Treatment Therapy Data for Cancer",
     "description": "Leverage mCODE and extensions to enable sharing of critical radiation therapy treatment data for care coordination or data reuse (research, quality measurement, payer-required reporting).",
     "url": "https://confluence.hl7.org/display/COD/Radiation+Therapy+Treatment+Data+for+Cancer",
+    "newDomain": false
+  },
+  {
+    "title": "Genomics Data Exchange",
+    "description": "Design and build an integrated standard that enables interoperable, scalable, and accessible genomics data that can easily be shared among laboratories, EHR Systems, and/or genomics repositories. ",
+    "url": "https://confluence.hl7.org/display/COD/GenomeX+-+Genomics+Data+Exchange",
     "newDomain": false
   }
 ]
