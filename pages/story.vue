@@ -14,8 +14,8 @@
     </div>
     <div class="bg-white flex">
       <iframe
-        tabindex="1"
         id="timeline"
+        tabindex="1"
         class="timeline"
         src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=11MDNixyECHr7Qpaxa-cv2vv1XICGoFix_nAF46u0_fU&font=Default&lang=en&initial_zoom=2&start_at_slide=11&height=650"
         webkitallowfullscreen
