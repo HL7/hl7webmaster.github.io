@@ -16,5 +16,11 @@
     "description": "Enable access to complex genomic data through APIs so that developers can more easily develop and populate data for a range of genomic applications. ",
     "url": "https://confluence.hl7.org/display/COD/GenomeX+-+Genomics+Operations",
     "newDomain": false
+  },
+  {
+    "title": "Quality Measures",
+    "description": "Create a solution that demonstrates the ability to author and evaluate digital quality measures using the FHIR data model and mCODE, where applicable, for value-based programs and clinical quality improvement in the oncology domain.",
+    "url": "https://confluence.hl7.org/display/COD/Quality+Measures+for+Cancer",
+    "newDomain": false
   }
 ]
