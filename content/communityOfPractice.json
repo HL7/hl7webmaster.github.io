@@ -10,7 +10,7 @@
       "name": "Payers",
       "image": "payers.png",
       "imageAlt": "Payers icon health shield",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Pharma",
@@ -22,7 +22,7 @@
       "name": "EHRs & Tech Companies",
       "image": "ehrsAndTechCompanies.png",
       "imageAlt": "EHR and Tech Companies Icon of person with electronic device",
-      "count": 111
+      "count": 115
     },
     {
       "name": "Medical Societies & Consortia",
@@ -46,7 +46,7 @@
       "name": "Non-Profits & Foundations",
       "image": "nonProfAndFoundations.png",
       "imageAlt": "Non-profit and foundations icon of people gathered together",
-      "count": 3
+      "count": 8
     },
     {
       "name": "Patient Advocacy Organizations",
