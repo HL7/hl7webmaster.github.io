@@ -281,7 +281,9 @@
             workflows, and patient outcomes from all areas of clinical care.
           </p>
         </div>
-        <SeeOurWork link="https://confluence.hl7.org/display/COD/Genomics" />
+        <SeeOurWork
+          link="https://confluence.hl7.org/display/COD/Genomics+-+GenomeX"
+        />
         <div class="border-b border-solid border-faintgrey pt-1 lg:pt-0"></div>
         <div id="cardiovascular-health-first-section">
           <h2 tabindex="0" class="font-black satoshi-bold font-20px pb-2">
