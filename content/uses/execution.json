@@ -34,5 +34,11 @@
     "description": "Design and build an integrated standard that enables interoperable, scalable, and accessible genomics data that can easily be shared among laboratories, EHR Systems, and/or genomics repositories. ",
     "url": "https://confluence.hl7.org/display/COD/GenomeX+-+Genomics+Data+Exchange",
     "newDomain": false
+  },
+  {
+    "title": "CardX Hypertension Management",
+    "description": "Design and build an integrated standard that enables interoperable, scalable, and accessible hypertension management, both at home and in the clinic, so that blood pressure data can easily be shared among home blood pressure measurement devices, patient data managers, and health systems. ",
+    "url": "https://confluence.hl7.org/display/COD/CardX+-+Hypertension+Management",
+    "newDomain": false
   }
 ]
