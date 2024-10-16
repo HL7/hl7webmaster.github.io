@@ -5,7 +5,7 @@
         <img
           class="logo"
           alt="CodeX Logo"
-          :src="require(`~/assets/img/logo-${logoColor}.svg`)"
+          :src="require(`~/assets/img/logo-${logoColor}.png`)"
         />
         <img
           class="code-logo self-end"

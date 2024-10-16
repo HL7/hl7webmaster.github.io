@@ -3,7 +3,7 @@
     <div class="flex place-items-center mobile-header">
       <NuxtLink class="flex" to="/">
         <img
-          :src="require(`~/assets/img/logo-${logoColor}.svg`)"
+          :src="require(`~/assets/img/logo-${logoColor}.png`)"
           class="logo"
         />
         <img
