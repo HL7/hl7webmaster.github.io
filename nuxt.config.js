@@ -28,10 +28,7 @@ export default {
       },
       { name: 'author', content: 'CodeX' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', sizes: 'any', href: 'favicon.ico' },
-      { rel: 'icon', type: 'image/svg+xml', href: 'favicon.svg' },
-    ],
+    link: [{ rel: 'icon', type: 'image/png', href: 'favicon.png' }],
     // <link rel="icon" href="/favicon.ico" sizes="any" />
     // <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   },

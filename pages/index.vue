@@ -382,7 +382,7 @@
       <img
         tabindex="0"
         width="900px"
-        src="~/assets/img/patient.jpg"
+        src="~/assets/img/patient.jpeg"
         title="The CodeX Community stakeholder map which includes patients, researchers, providers, payers, pharmaceuticals, health systems, public health, advocacy groups, global community, health IT, regulators, and philanthropy."
         alt="The CodeX Community stakeholder map which includes patients, researchers, providers, payers, pharmaceuticals, health systems, public health, advocacy groups, global community, health IT, regulators, and philanthropy."
       />
